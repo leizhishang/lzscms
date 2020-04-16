@@ -1,0 +1,39 @@
+{
+    "name": "leizhishang/lzscms",
+    "description": "Leizhishang Cms",
+    "keywords": ["cms", "laravel", "Leizhishang"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leizhishang",
+            "email": "969111802@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "doctrine/dbal": "^2.5",
+        "webpatser/laravel-uuid": "^3.0",
+        "jenssegers/agent": "^2.3",
+        "caffeinated/modules": "^4.1",
+        "gregwar/captcha": "1.*",
+        "gregwar/image": "2.*",
+        "barryvdh/laravel-debugbar": "^3.1",
+        "overtrue/laravel-wechat": "~4.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leizhishang\\Lzscms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leizhishang\\Lzscms\\LzscmsServiceProvider"
+            ],
+            "aliases": {
+                "Lzscms": "Leizhishang\\Lzscms\\Facades\\Lzscms"
+            }
+        }
+    }
+}

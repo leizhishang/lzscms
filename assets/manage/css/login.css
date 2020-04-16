@@ -1,0 +1,86 @@
+body{
+    background: url("../images/bodybg.jpg") no-repeat;
+    background-size:cover;  
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px
+}
+
+.login-page .login-logo {
+  margin-bottom: 15px
+}
+
+.login-form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 40px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.login-form .hstui-input-icon{
+  height: 45px;
+}
+
+.login-form .hstui-input-icon input{
+  height: 41px;
+  border: 0px !important;
+}
+
+.hstui-form .hstui-form-group{
+  border-bottom: 0px;
+}
+
+.login-form .login-errors{
+  text-align: left;
+  margin-top: 10px;
+  color: red;
+}
+
+.login-form .login-errors ul{
+  overflow: hidden;
+}
+
+.login-form .login-errors ul>li{
+  height: 25px;
+  line-height: 25px;
+}
+
+.copyRight{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copyRight p a,
+.copyRight p{
+  color: #FFFFFF;
+}
+
+.copyRight p{
+  height: 30px;
+  line-height: 30px;
+}
+
+.hstui-input-icon.hstui-icon-lf .hstui-icon, .hstui-input-icon.hstui-icon-lf i{
+  left: 5px
+}
+
+.hstui-input-icon .hstui-input, .hstui-input-icon input[type="password"] {
+    background-color: #fff;
+    border: 0;
+    box-shadow: initial;
+    width: 100%;
+    padding-left: 20px;
+    border: 0!important;
+}
+
+

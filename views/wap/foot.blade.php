@@ -1,0 +1,3 @@
+<script>
+hstui.init({});
+</script>

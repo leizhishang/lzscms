@@ -1,0 +1,1 @@
+{!! lzs_lang('lzscms::manage.email.test.content') !!}
